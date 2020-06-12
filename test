@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Beano TESTING!</title>
+    </head>
+    <body>
+        <script>
+            function play() {
+
+                var number = Math.floor(Math.random() * (3) + 1);
+                var audio = document.getElementById("audio".concat(String.toString(number)));
+                audio.play();
+            }
+        </script>
+        <input type="image" src="beano.jpg" style="width:100%" onclick="play()">
+        <audio id="audio1" src="beano1.wav"></audio>
+        <audio id="audio2" src="beano2.wav"></audio>
+        <audio id="audio3" src="beano3.wav"></audio>
+        <audio id="audio4" src="beano4.wav"></audio>
+        <center>
+        <span style="font-size:18px">Website: <a href="https://twitter.com/HeyThatsTim" target="blank">HeyThatsTim</a> -- Artwork: farnsworthless -- Sound: <a href="https://twitter.com/MissionToZyxx" target="blank">Mission to Zyxx</a>'s <a href="https://twitter.com/WinstonNoel" target="blank">Winston Noel</a></span>
+        <!-- <br><span style="font-family:console;font-size:25px;">TOUCH THE BEANO</span> -->
+        </center>
+    </body>
+</html>
